@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .subscribe-button {
+        background-color: rgb(201, 20, 20);
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.5s;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      .subscribe-button:hover {
+        opacity: 0.7;
+      }
+      .subscribe-button:active {
+        opacity: 0.4;
+      }
+
+      .join-button {
+        background-color: white;
+        border-color: rgb(66, 151, 236);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 3px;
+        color: rgb(66, 151, 236);
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        padding: 9px 10px; /* horizontal, vertical*/
+      }
+      .join-button:hover {
+        background-color: rgb(66, 151, 236);
+        color: white;
+      }
+      .join-button:active {
+        opacity: 0.5;
+      }
+
+      .tweet-button {
+        background-color: rgb(66, 151, 236);
+        border: none;
+        border-radius: 20px;
+        height: 36px;
+        width: 70px;
+        color: white;
+        font-weight: bold;
+        font-size: medium;
+        cursor: pointer;
+        margin-left: 8px;
+        transition: box-shadow 0.2s;
+      }
+      .tweet-button:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* horizontal, vetical, blur, color */
+      }
+    </style>
+
+    <button class="subscribe-button">SUBSCRIBE</button>
+    <!-- Using 'height' and 'width' for longer texts could overlap the box borders -->
+    <button class="join-button">JOIN My Channel</button>
+    <button class="tweet-button">Tweet</button>
+  </body>
+</html>
