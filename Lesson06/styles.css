@@ -1,0 +1,105 @@
+p {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Roboto;
+  /* Cleaning all default-style padding margins */
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.video-title {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: bold;
+  font-size: 18px;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.video-stats {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 13px;
+  color: rgb(96, 96, 96);
+  /* margin-top: 0px; */
+  margin-bottom: 20px;
+}
+.video-author {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+.video-description {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 14px;
+  width: 300px;
+  line-height: 18px;
+  margin-bottom: 100px;
+}
+.apple-text {
+  margin-bottom: 50px;
+  background-color: rgb(227, 65, 64);
+  /* width: 300px; */
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.shop-now-link {
+  cursor: pointer;
+  margin-left: 10px;
+}
+.shop-now-link:hover {
+  text-decoration: underline;
+}
+.subscribe-button {
+  background-color: rgb(201, 20, 20);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.5s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.subscribe-button:hover {
+  opacity: 0.7;
+}
+.subscribe-button:active {
+  opacity: 0.4;
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(66, 151, 236);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  color: rgb(66, 151, 236);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 9px 10px; /* horizontal, vertical*/
+}
+.join-button:hover {
+  background-color: rgb(66, 151, 236);
+  color: white;
+}
+.join-button:active {
+  opacity: 0.5;
+}
+
+.tweet-button {
+  background-color: rgb(66, 151, 236);
+  border: none;
+  border-radius: 20px;
+  height: 36px;
+  width: 70px;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.2s;
+}
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* horizontal, vetical, blur, color */
+}
