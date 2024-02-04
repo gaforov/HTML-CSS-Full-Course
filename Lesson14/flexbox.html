@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Practice</title>
+</head>
+
+<body style="padding-bottom: 200px">
+    <div style="display: flex; flex-direction: row">
+        <div style="background-color: cyan">div 1 text</div>
+        <div style="background-color: pink">
+            div 2
+            <p>paragraph</p>
+        </div>
+    </div>
+    <div style="margin-top: 30px; display: flex; flex-direction: row">
+        <div style="background-color: cyan; width: 100px">div 1 - 100px</div>
+        <div style="background-color: pink; flex: 1">div 2 - flex: 1</div>
+    </div>
+    <div style="
+        margin-top: 30px;
+        display: flex;
+        /* flex-direction: row;  By dafault its row?*/
+      ">
+        <div style="background-color: pink; flex: 1">div 2 - flex: 1</div>
+        <div style="background-color: cyan; width: 100px">div 1 - 100px</div>
+        <div style="background-color: orange; flex: 1">div 3 - flex: 1</div>
+    </div>
+
+    <div style="
+        margin-top: 30px;
+        display: flex;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: space-between;
+        /* flex-direction: row;  By dafault its row?*/
+      ">
+        <div style="background-color: pink; width: 100px">div - 100px</div>
+        <div style="background-color: cyan; width: 100px">div - 100px</div>
+        <div style="background-color: orange; width: 100px">div - 100px</div>
+    </div>
+
+    <div style="
+        margin-top: 30px;
+        display: flex;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-direction: row;  By dafault its row?*/
+      ">
+        <div style="background-color: pink; width: 100px">div - 100px</div>
+        <div style="background-color: cyan; width: 100px">div - 100px</div>
+        <div style="background-color: orange; width: 100px">div - 100px</div>
+    </div>
+</body>
+
+</html>
