@@ -5,7 +5,9 @@ header {
 }
 section.left {
     background-color: lightskyblue;
-    width: 200px;
+    width: 150px;
+    display: flex;
+    align-items: center;
 }
 section.middle {
     background-color: pink;
@@ -16,5 +18,13 @@ section.middle {
 }
 section.right {
     background-color: olivedrab;
-    width: 300px;
+    width: 200px;
+}
+.hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.youtube-logo {
+    height: 24px;
 }
