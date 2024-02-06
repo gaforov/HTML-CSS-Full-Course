@@ -1,0 +1,99 @@
+header {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(214, 214, 214);
+}
+section.left {
+    /* background-color: lightskyblue;
+    width: 150px; */
+    display: flex;
+    align-items: center;
+}
+section.middle {
+    /* background-color: pink; */
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 40px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+section.right {
+    /* background-color: olivedrab; */
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    flex-shrink: 0; /* Do not shrink right section icons */
+}
+.upload-icon {
+    height: 24px;
+}
+.youtube-apps-icon {
+    height: 24px;
+}
+.notifications-icon {
+    height: 24px;
+}
+.my-channel-icon {
+    height: 32px;
+    border-radius: 16px;
+}
+.hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.youtube-logo {
+    height: 20px;
+}
+.search-bar {
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(183, 183, 183);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0; /* Shrink Search bar */
+}
+.search-bar::placeholder {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.search-button {
+    height: 40px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(183, 183, 183);
+    margin-left: -1px;
+}
+.search-icon {
+    height: 25px;
+    margin-top: 4px;
+}
+.voice-search-button {
+    background-color: rgb(246, 245, 245);
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+}
+.voice-search-icon {
+    height: 24px;
+    margin-top: 4px;
+}
