@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Practice</title>
+  </head>
+
+  <body style="height: 1500px; padding-top: 60px; padding-left: 80px">
+    <div
+      style="
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        /* bottom: 100px; */
+        height: 50px;
+        /* z-index: 1; */
+      "
+    >
+      header
+    </div>
+
+    <div
+      style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        top: 80px;
+        right: 40px;
+        /* z-index: 2; */
+      "
+    >
+      absolute
+    </div>
+
+    <div
+      style="
+        background-color: green;
+        color: white;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        top: 50px;
+        width: 70px;
+      "
+    >
+      sidebar
+      <!-- absolute inside fixed, positioned relateive to parent(fixed) (Position absolute inside postion fixed) -->
+      <div
+        style="
+          position: absolute;
+          background-color: red;
+          color: white;
+          top: 0;
+          right: 0;
+          /* z-index: 2; */
+        "
+      >
+        X
+      </div>
+    </div>
+
+    <div
+      style="
+        background-color: lightskyblue;
+        height: 200px;
+        width: 200px;
+        position: static; /* This is default, no need to mention */
+      "
+    >
+      div 1
+    </div>
+
+    <div
+      style="
+        background-color: coral;
+        height: 200px;
+        width: 200px;
+        position: relative;
+      "
+    >
+      <!-- absolute inside relative, positioned relateive to parent (Position absolute inside position relative) -->
+      <div
+        style="
+          position: absolute;
+          background-color: black;
+          color: white;
+          right: 7px;
+          bottom: 7px;
+          /* z-index: 2; */
+        "
+      >
+        5:00
+      </div>
+      div 2
+    </div>
+  </body>
+</html>
